@@ -1,7 +1,18 @@
 import React from 'react';
-import { data } from './data';
 
 export default function NewGoodsOrder() {
+  let index = 0;
+  const data = [
+    {
+      id: index++,
+      code: '1001',
+      name: 'silver 1002',
+      cost: "30.500 so'm",
+      volume: '302 kv.meter',
+      summa: "407.500 so'm",
+    },
+  ];
+
   const date = new Date();
   return (
     <div className="w-full p-2 md:w-1/2">
