@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+menu a {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  color: #f6a013;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+menu a:hover {
+  background-color: #ffffff44;
+}
+
+menu a.active {
+  border-left: 4px solid #f6a013;
+}
